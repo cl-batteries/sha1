@@ -17,8 +17,8 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/sha1
-  (:use :cl :cl-batteries/base64)
+(defpackage :boost-sha1
+  (:use :cl :boost-base64)
   (:export
    #:sha1-digest
    #:sha1-hex
@@ -29,7 +29,7 @@
    #:hmac-sha1-hex
    #:hmac-sha1-base64))
 
-(in-package :cl-batteries/sha1)
+(in-package :boost-sha1)
 
 ;;; ----------------------------------------------------
 
