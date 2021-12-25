@@ -6,4 +6,4 @@
   :description "SHA1 Digest and HMAC for Common Lisp."
   :serial t
   :components ((:file "sha1"))
-  :depends-on ("boost-base64")))
+  :depends-on ("boost-base64"))
